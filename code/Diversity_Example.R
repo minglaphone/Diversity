@@ -57,3 +57,5 @@ print(diversity_df)
 #The results are then combined into a new data frame using the `bind_rows` function from the `dplyr` package.
 #The resulting data frame contains the diversity indices for each population, which can be used to compare the diversity of different populations.
 #The code uses the `purrr` and `dplyr` packages to calculate diversity indices for each population in the data frame and stores the results in a new data frame.
+
+#The diversity indices are calculated using the `map` function from the `purrr` package, which applies the `diversity` function to each column of the data frame (excluding the species column).
